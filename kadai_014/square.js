@@ -1,5 +1,6 @@
 const num = (num2) => {
-    console.log(num2 ** 2);
-  }
+    return num2 ** 2;
+  };
 
-  num(10);
+const result = num(10);
+console.log(result);
